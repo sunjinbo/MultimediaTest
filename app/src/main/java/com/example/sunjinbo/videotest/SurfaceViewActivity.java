@@ -38,7 +38,7 @@ public class SurfaceViewActivity extends AppCompatActivity implements SurfaceHol
     public void surfaceCreated(SurfaceHolder holder) {
         try {
             mMediaPlayer.setDisplay(holder);
-            mMediaPlayer.setDataSource("http://msoftdl.360.cn/mobilesafe/shouji360/360VR/video/vr/AntVR.mp4");
+            mMediaPlayer.setDataSource("http://play5.kandian.360.cn/live_news_500/main_output_m1/index.m3u8");
             mMediaPlayer.prepare();
         } catch (IOException e) {
             e.printStackTrace();

@@ -17,7 +17,7 @@ public class VideoViewActivity extends AppCompatActivity {
 
         final VideoView videoView = (VideoView)findViewById(R.id.video_view);
         videoView.setKeepScreenOn(true);
-        videoView.setVideoPath("http://msoftdl.360.cn/mobilesafe/shouji360/360VR/video/vr/AntVR.mp4");
+        videoView.setVideoPath("http://play5.kandian.360.cn/live_news_500/main_output_m1/index.m3u8");
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
